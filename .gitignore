@@ -1,0 +1,63 @@
+LEGACY/out/SimpleTest.class
+
+.idea/
+*.class
+.vscode/settings.json
+/.vscode/
+/plots/
+LEGACY/utils/CcpTest.py
+
+*.iml
+
+*.sh
+
+#md
+*.md
+
+#png
+*.png
+
+#csv
+*.csvSctBench
+
+#pycache
+scripts/__pycache__
+
+### Gradle ###
+.gradle
+/gradle
+
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
+/.version
+/build.properties
+/extracted_folder
+.DS_Store
+CupTest/.DS_Store
+CupTest/app/.DS_Store
+CupTest/app/bin/.DS_Store
+LEGACY/.DS_Store
+LEGACY/Benchmarks/.DS_Store
+LEGACY/jpf/.DS_Store
